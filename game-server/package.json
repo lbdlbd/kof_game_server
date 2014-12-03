@@ -1,0 +1,17 @@
+{
+    "name":"kof",
+    "version":"0.0.1",
+    "private":false,
+    "dependencies":{
+        "pomelo":"1.0.1",
+        "pomelo-logger": "0.1.2",
+        "underscore": "1.6.0",
+        "async": ">=0.0.1",
+        "pomelo-collection": ">=0.1.0",
+        "pomelo-bt": ">=0.0.1",
+        "pomelo-aoi" : ">=0.3.4",
+        "crc" : "0.2.0",
+        "request": "2.37.0"
+    }
+}
+

@@ -1,0 +1,41 @@
+{
+  "development":{
+    "gate": [
+    {"id": "gate-server-1", "host": "192.168.1.254", "clientPort": 3000, "frontend": true}
+    ],
+    "connector": [
+    {"id": "connector-server-1", "host": "192.168.1.254", "port": 3150, "clientPort": 3010, "frontend": true},
+    {"id": "connector-server-2", "host": "192.168.1.254", "port": 3151, "clientPort": 3011, "frontend": true}
+    ],
+    "chat": [
+    {"id": "chat-server-1", "host":"127.0.0.1", "port":3160}
+    ],
+    "area": [
+    {"id": "area-server-1", "host":"127.0.0.1", "port":3170, "area": 1, "args": " --debug=5858 " },
+    {"id": "instance-server-1", "host": "127.0.0.1", "port": 3180, "instance": true}
+    ],
+    "manager": [
+    {"id":"manager-server-1","host":"127.0.0.1","port":3190}
+    ]
+  },
+  "production":{
+    "gate": [
+    {"id": "gate-server-1", "host": "192.168.1.144", "clientPort": 3000, "frontend": true}
+    ],
+    "connector": [
+    {"id": "connector-server-1", "host": "192.168.1.144", "port": 3150, "clientPort": 3010, "frontend": true},
+    {"id": "connector-server-2", "host": "192.168.1.144", "port": 3151, "clientPort": 3011, "frontend": true}
+    ],
+    "chat": [
+    {"id": "chat-server-1", "host":"127.0.0.1", "port":3160}
+    ],
+    "area": [
+    {"id": "area-server-1", "host":"127.0.0.1", "port":3170, "area": 1},
+    {"id": "instance-server-1", "host": "127.0.0.1", "port": 3180, "instance": true}
+    ],
+    "manager": [
+    {"id": "manager-server-1", "host":"127.0.0.1", "port":3190}
+    ]
+
+  }
+}

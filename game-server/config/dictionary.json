@@ -1,0 +1,7 @@
+[
+"onAddEntities",
+"onRemoveEntities",
+"onMoveTo",
+"onUserLeave",
+"onAttack"
+]
